@@ -1,38 +1,5 @@
 Zova Bot — WhatsApp Order Management Automation
 
-WhatsApp Message
-      │
-      ▼
-┌─────────────────┐
-│  Route: PDF /   │
-│     Text        │
-└────────┬────────┘
-         │
-    ┌────┴────┐
-    │         │
-    ▼         ▼
- [PDF]     [Text]
-    │         │
-    ▼         ▼
-Download   Text Order
-  PDF      Agent (AI)
-    │         │
-    ▼         ▼
-  Wait      Send
- (60 sec)  WhatsApp
-    │       Reply
-    ▼
-Analyze via
-Gemini AI
-    │
-    ▼
-Parse JSON
-(JavaScript)
-    │
-    ▼
-Save to
-Google Sheets 
-
 ⚙️ Nodes & Their Functions
 1. 📲 WhatsApp Trigger
 
